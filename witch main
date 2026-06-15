@@ -1,0 +1,17 @@
+[33mcommit 19bd92ff3b9f6d8bbc2e871d718a2ea44b0c0438[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mAula2[m[33m, [m[1;31morigin/Aula2[m[33m)[m
+Author: PedroSinhuk <pehsinhuk@gmail.com>
+Date:   Mon Jun 15 15:52:11 2026 -0300
+
+    Cria uma entidade no banco de dados apartir do NinjaModel
+
+[33mcommit 5d9ed3fa7c0aa87ab6d644e52fc5c9e585981d01[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: PedroSinhuk <pehsinhuk@gmail.com>
+Date:   Fri Jun 12 14:44:48 2026 -0300
+
+    Criado o controller
+
+[33mcommit 99655aad2b2dd40936729fff2d6b9d9c804e5d8d[m
+Author: PedroSinhuk <pehsinhuk@gmail.com>
+Date:   Fri Jun 12 13:19:13 2026 -0300
+
+    first commit
