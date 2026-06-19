@@ -1,10 +1,14 @@
-package com.PrimeiroTeste.cadastroDeTeste;
+package com.PrimeiroTeste.cadastroDeTeste.Ninjas;
 
+import com.PrimeiroTeste.cadastroDeTeste.Missoes.MissoesModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 //Entity transforma uma classe em uma entidade do banco de dados!
 @Entity
 @Table (name = "tb_cadastro")
+
 public class NinjaModel {
 
     @Id
@@ -13,6 +17,12 @@ public class NinjaModel {
     private String nome;
     private String email;
     private int idade;
+
+    //@ManyToOne - um ninja uma unica missao
+    @ManyToOne
+    @JoinColumn(name = "missoes_id")//Foreing Key ou chave estrangeira
+    private MissoesModel missoes;
+
 
     public NinjaModel() {
     }
@@ -24,26 +34,32 @@ public class NinjaModel {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public String getEmail() {
+
         return email;
     }
 
     public void setEmail(String email) {
+
         this.email = email;
     }
 
     public int getIdade() {
+
         return idade;
     }
 
     public void setIdade(int idade) {
+
         this.idade = idade;
     }
 
