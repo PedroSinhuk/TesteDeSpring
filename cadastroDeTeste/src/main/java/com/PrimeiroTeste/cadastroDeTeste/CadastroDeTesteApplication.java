@@ -1,4 +1,4 @@
-package com.PrimeiroTeste.cadastroDeTeste.Ninjas;
+package com.PrimeiroTeste.cadastroDeTeste;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
