@@ -28,4 +28,9 @@ public class NinjaService {
         return ninjaPorId.orElse(null);
     }
 
+    //Criar Ninja
+    public NinjaModel criarNinja(NinjaModel ninja){
+        return ninjaRepository.save(ninja);
+    }
+
 }
